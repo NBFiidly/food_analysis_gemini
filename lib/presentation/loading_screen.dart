@@ -10,7 +10,10 @@ class LoadingScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Lottie.asset("assets/animations/Online_startup_business.json", width: 370),
+          Lottie.asset(
+            "assets/animations/Online_startup_business.json",
+            width: 380,
+          ),
           Text("Sedang menganalisis gambar..."),
         ],
       ),
